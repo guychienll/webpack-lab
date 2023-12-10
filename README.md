@@ -1,7 +1,7 @@
 # Webpack Lab
 
 > **NOTE**  
-> See Here [Tree Shaking](https://www.guychienll.dev/docs/web/webpack/loaders)
+> See Here [Webpack Loaders](https://www.guychienll.dev/docs/web/webpack/loaders)
 
 
 ## Getting Started
