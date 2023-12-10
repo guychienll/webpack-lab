@@ -1,10 +1,17 @@
-import styles from "./base.module.css";
+import * as React from "react";
+import ReactDOM from "react-dom/client";
+import ReactIcon from "./assets/react-logo.svg";
 
 const root = document.createElement("div");
-
-const header = document.createElement("div");
-header.className = styles.header;
-header.innerHTML = "this is a header";
-
-root.appendChild(header);
 document.body.appendChild(root);
+
+function App() {
+    return (
+        <div>
+            <h1>SVGR Loader Playground</h1>
+            <ReactIcon width={100} height={100} />
+        </div>
+    );
+}
+
+ReactDOM.createRoot(root).render(<App />);
